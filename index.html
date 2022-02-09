@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Clone</title>
+  <!-- material icons  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- custom css  -->
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+<!-- header starts -->
+<header class="header">
+  <div class="header-left">
+    <i class="material-icons">menu</i>
+    <img src="./assets/yt-logo.png" alt="youtube-logo" />
+  </div>
+  <div class="header-center">
+    <form>
+      <input type="text" placeholder="Search" />
+      <button><i class="material-icons">search</i></button>
+    </form>
+    <i class="material-icons">mic</i>
+  </div>
+  <div class="header-right">
+    <i class="material-icons">videocam</i>
+    <i class="material-icons">apps</i>
+    <i class="material-icons">notifications</i>
+    <i class="material-icons">account_circle</i>
+  </div>
+
+</header>
+<!-- headder ends  -->
+<main class="container">
+  <!-- sidebar starts  -->
+  <aside class="side-bar">
+    <div class="sidebar-categories">
+      <div class="sidebar-category active">
+        <i class="material-icons">home</i>
+        <span>Home</span>
+      </div>
+      <div class="sidebar-category">
+        <i class="material-icons">local_fire_department</i>
+        <span>Trending</span>
+      </div>
+      <div class="sidebar-category sidebar-category-before-hr">
+        <i class="material-icons">subscriptions</i>
+        <span>subscriptions</span>
+      </div>
+      <hr />
+      <div class="sidebar-category sidebar-category-after-hr">
+        <i class="material-icons">library_add_check</i>
+        <span>Library</span>
+      </div>
+
+      <div class="sidebar-category">
+        <i class="material-icons">history</i>
+        <span>History</span>
+      </div>
+
+      <div class="sidebar-category">
+        <i class="material-icons">play_arrow</i>
+        <span>Your Videos</span>
+      </div>
+
+      <div class="sidebar-category">
+        <i class="material-icons">watch_later</i>
+        <span>watch_later</span>
+      </div>
+    </div>
+  </aside>
+  <!-- sidebar ends  -->
+  <!-- video container starts  -->
+  <article class="videos-container">
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/lheapd7bgLA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKB-taCcOSO6_PA5yNxA28ySgU1g"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLQO2-DfuqwtPYTqBcZ8rEWt8g4p1sB_LyddKS5msQ=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            What if the Moon Crashes into Earth? - Real Physics (Mostly)
+          </h3>
+          <a href="#">
+            Kurzgesagt-In a Nutshell
+            </a>
+          <span>10M Views • 8 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/Mt5wzzmprMo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBh_2ZcnoSLw6zEHpfGHyqPmZjLiw"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLQHZoxF6R_MuJxQk2u6yboQPtxTuzfQrDh8u1bbGQ=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            What happened In The First Minutes After The Dinosaurs Disappeared?
+          </h3>
+          <a href="#">        
+            Ridddle
+            </a>
+          <span>12M Views • 4 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/_N326-JdKgg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDFWigBDuxL8_kyAB3ZABL97LEu7Q"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLT_iJIt5_R1lHArs5s3PCoggEyFwTXPPjTwxjWM=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            The Highest Earning Business in Shark Tank History? | Shark Tank AUS
+          </h3>
+          <a href="#">   
+            Shark Tank Australia
+          </a>
+          <span>15M Views • 9 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/lheapd7bgLA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKB-taCcOSO6_PA5yNxA28ySgU1g"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLQO2-DfuqwtPYTqBcZ8rEWt8g4p1sB_LyddKS5msQ=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            What if the Moon Crashes into Earth? - Real Physics (Mostly)
+          </h3>
+          <a href="#">
+            Kurzgesagt-In a Nutshell
+            </a>
+          <span>10M Views • 8 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/Mt5wzzmprMo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBh_2ZcnoSLw6zEHpfGHyqPmZjLiw"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLQHZoxF6R_MuJxQk2u6yboQPtxTuzfQrDh8u1bbGQ=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            What happened In The First Minutes After The Dinosaurs Disappeared?
+          </h3>
+          <a href="#">        
+            Ridddle
+            </a>
+          <span>12M Views • 4 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/_N326-JdKgg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDFWigBDuxL8_kyAB3ZABL97LEu7Q"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLT_iJIt5_R1lHArs5s3PCoggEyFwTXPPjTwxjWM=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            The Highest Earning Business in Shark Tank History? | Shark Tank AUS
+          </h3>
+          <a href="#">   
+            Shark Tank Australia
+          </a>
+          <span>15M Views • 9 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/lheapd7bgLA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKB-taCcOSO6_PA5yNxA28ySgU1g"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLQO2-DfuqwtPYTqBcZ8rEWt8g4p1sB_LyddKS5msQ=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            What if the Moon Crashes into Earth? - Real Physics (Mostly)
+          </h3>
+          <a href="#">
+            Kurzgesagt-In a Nutshell
+            </a>
+          <span>10M Views • 8 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/Mt5wzzmprMo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBh_2ZcnoSLw6zEHpfGHyqPmZjLiw"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLQHZoxF6R_MuJxQk2u6yboQPtxTuzfQrDh8u1bbGQ=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            What happened In The First Minutes After The Dinosaurs Disappeared?
+          </h3>
+          <a href="#">        
+            Ridddle
+            </a>
+          <span>12M Views • 4 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/_N326-JdKgg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDFWigBDuxL8_kyAB3ZABL97LEu7Q"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLT_iJIt5_R1lHArs5s3PCoggEyFwTXPPjTwxjWM=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            The Highest Earning Business in Shark Tank History? | Shark Tank AUS
+          </h3>
+          <a href="#">   
+            Shark Tank Australia
+          </a>
+          <span>15M Views • 9 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/lheapd7bgLA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKB-taCcOSO6_PA5yNxA28ySgU1g"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLQO2-DfuqwtPYTqBcZ8rEWt8g4p1sB_LyddKS5msQ=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            What if the Moon Crashes into Earth? - Real Physics (Mostly)
+          </h3>
+          <a href="#">
+            Kurzgesagt-In a Nutshell
+            </a>
+          <span>10M Views • 8 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/Mt5wzzmprMo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBh_2ZcnoSLw6zEHpfGHyqPmZjLiw"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLQHZoxF6R_MuJxQk2u6yboQPtxTuzfQrDh8u1bbGQ=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            What happened In The First Minutes After The Dinosaurs Disappeared?
+          </h3>
+          <a href="#">        
+            Ridddle
+            </a>
+          <span>12M Views • 4 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/_N326-JdKgg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDFWigBDuxL8_kyAB3ZABL97LEu7Q"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLT_iJIt5_R1lHArs5s3PCoggEyFwTXPPjTwxjWM=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            The Highest Earning Business in Shark Tank History? | Shark Tank AUS
+          </h3>
+          <a href="#">   
+            Shark Tank Australia
+          </a>
+          <span>15M Views • 9 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/lheapd7bgLA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKB-taCcOSO6_PA5yNxA28ySgU1g"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLQO2-DfuqwtPYTqBcZ8rEWt8g4p1sB_LyddKS5msQ=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            What if the Moon Crashes into Earth? - Real Physics (Mostly)
+          </h3>
+          <a href="#">
+            Kurzgesagt-In a Nutshell
+            </a>
+          <span>10M Views • 8 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/Mt5wzzmprMo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBh_2ZcnoSLw6zEHpfGHyqPmZjLiw"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLQHZoxF6R_MuJxQk2u6yboQPtxTuzfQrDh8u1bbGQ=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            What happened In The First Minutes After The Dinosaurs Disappeared?
+          </h3>
+          <a href="#">        
+            Ridddle
+            </a>
+          <span>12M Views • 4 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/_N326-JdKgg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDFWigBDuxL8_kyAB3ZABL97LEu7Q"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLT_iJIt5_R1lHArs5s3PCoggEyFwTXPPjTwxjWM=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            The Highest Earning Business in Shark Tank History? | Shark Tank AUS
+          </h3>
+          <a href="#">   
+            Shark Tank Australia
+          </a>
+          <span>15M Views • 9 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/lheapd7bgLA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKB-taCcOSO6_PA5yNxA28ySgU1g"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLQO2-DfuqwtPYTqBcZ8rEWt8g4p1sB_LyddKS5msQ=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            What if the Moon Crashes into Earth? - Real Physics (Mostly)
+          </h3>
+          <a href="#">
+            Kurzgesagt-In a Nutshell
+            </a>
+          <span>10M Views • 8 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/Mt5wzzmprMo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBh_2ZcnoSLw6zEHpfGHyqPmZjLiw"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLQHZoxF6R_MuJxQk2u6yboQPtxTuzfQrDh8u1bbGQ=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            What happened In The First Minutes After The Dinosaurs Disappeared?
+          </h3>
+          <a href="#">        
+            Ridddle
+            </a>
+          <span>12M Views • 4 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/_N326-JdKgg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDFWigBDuxL8_kyAB3ZABL97LEu7Q"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLT_iJIt5_R1lHArs5s3PCoggEyFwTXPPjTwxjWM=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            The Highest Earning Business in Shark Tank History? | Shark Tank AUS
+          </h3>
+          <a href="#">   
+            Shark Tank Australia
+          </a>
+          <span>15M Views • 9 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/lheapd7bgLA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKB-taCcOSO6_PA5yNxA28ySgU1g"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLQO2-DfuqwtPYTqBcZ8rEWt8g4p1sB_LyddKS5msQ=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            What if the Moon Crashes into Earth? - Real Physics (Mostly)
+          </h3>
+          <a href="#">
+            Kurzgesagt-In a Nutshell
+            </a>
+          <span>10M Views • 8 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/Mt5wzzmprMo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBh_2ZcnoSLw6zEHpfGHyqPmZjLiw"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLQHZoxF6R_MuJxQk2u6yboQPtxTuzfQrDh8u1bbGQ=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            What happened In The First Minutes After The Dinosaurs Disappeared?
+          </h3>
+          <a href="#">        
+            Ridddle
+            </a>
+          <span>12M Views • 4 Months Ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="video-thumbnail">
+        <img
+          src="https://i.ytimg.com/vi/_N326-JdKgg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDFWigBDuxL8_kyAB3ZABL97LEu7Q"
+          alt="an youtube image"
+        />
+      </div>
+      <div class="video-details">
+        <div class="author">
+          <img
+            src="https://yt3.ggpht.com/ytc/AKedOLT_iJIt5_R1lHArs5s3PCoggEyFwTXPPjTwxjWM=s68-c-k-c0x00ffffff-no-rj"
+            alt="profile pic"
+          />
+        </div>
+        <div class="title">
+          <h3>
+            The Highest Earning Business in Shark Tank History? | Shark Tank AUS
+          </h3>
+          <a href="#">   
+            Shark Tank Australia
+          </a>
+          <span>15M Views • 9 Months Ago</span>
+        </div>
+      </div>
+    </div>
+  </article>
+  <!-- video container ends  -->
+</main>
+</body>
+
+</html>
